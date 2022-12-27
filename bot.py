@@ -1,4 +1,8 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
 import telebot
+
 
 bot = telebot.TeleBot("5863278624:AAFW5zXpffCSA9qSpAhVUMf0TG3Huq3o4iM")
 
