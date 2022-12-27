@@ -50,7 +50,8 @@ def get_user_text(message):
                          "Ещё ссылка: https://proproprogs.ru/python_base/spiski-srezy-i-metody \n ", parse_mode="html")
     elif message.text == "pep8" or message.text == "Pep8":
         bot.send_message(message.chat.id,
-                         "Изучай: https://python-scripts.com/pathlib \n Ссылка на видео: https://www.youtube.com/watch?v=pAJO25vJneQ \n "
+                         "Изучай: https://pythonworld.ru/osnovy/pep-8-rukovodstvo-po-napisaniyu-koda-na-python.html"
+                         " \n Ссылка на видео: https://www.youtube.com/watch?v=pAJO25vJneQ \n "
                          "Ещё видео: https://www.youtube.com/watch?v=qBSYKHXVgf0 ", parse_mode="html")
     elif message.text == "Работа с SQlite3 в Python" or message.text == "SQlite3":
         bot.send_message(message.chat.id,
